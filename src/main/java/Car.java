@@ -14,6 +14,11 @@ public class Car {
     }
 
     @Override
+    public String toString() {
+        return name;
+    }
+
+    @Override
     public boolean equals(Object obj) {
         Car otherCar = (Car) obj;
         if (otherCar == null)
